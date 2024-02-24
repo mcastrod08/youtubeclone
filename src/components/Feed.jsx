@@ -31,7 +31,7 @@ const Feed = () => {
       <Box
         style={{
           alignText: 'center',
-          paddingLeft: '6rem'
+          padding: '3rem'
         }}
       >
         <Typography variant="h5"

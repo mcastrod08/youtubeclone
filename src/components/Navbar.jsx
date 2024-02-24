@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stack } from '@mui/material'
 import { Link } from 'react-router-dom'
+import logo from "../utils/signature2.png"
 import SearchBar from './SearchBar'
 
 const Navbar = () => (
@@ -11,7 +12,7 @@ const Navbar = () => (
     sx={{ position:'sticky', background: 'red', top: 0, justifyContent: 'space-between' }}
   >
     <Link to="/" style={{ display:'flex', alignItems:'center'}} >
-      Logo
+      <img src={logo} alt="logo" width='60px'/>
     </Link>
     <SearchBar/>
   </Stack>
